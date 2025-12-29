@@ -26,7 +26,7 @@ buttonFour.addEventListener("click", function () {
   if (value.trim() !== "") {
     const li = document.createElement("li");
     li.textContent = value;
-    list.appendChild(li);
+    listInput.appendChild(li);
     input.value = "";
   }
 });
